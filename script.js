@@ -264,15 +264,6 @@ window.onclick = function (event) {
   }
 };
 
-function toggleMusic() {
-  const music = document.getElementById("bgMusic");
-  if (music.paused) {
-    music.play();
-  } else {
-    music.pause();
-  }
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   const music = document.getElementById("bgMusic");
   if (music) {
