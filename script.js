@@ -272,3 +272,13 @@ function toggleMusic() {
     music.pause();
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const music = document.getElementById("bgMusic");
+  if (music) {
+    music.play().catch((error) => {
+      // Autoplay might be blocked, user can toggle manually
+      console.log("Autoplay prevented:", error);
+    });
+  }
+});
