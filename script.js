@@ -33,9 +33,9 @@ const today = new Date();
 const gifts = [
   {
     title: "Day 1 💖",
-    content: "A warm hug from Arsln to Nehu 🤗",
+    content: "A warm hug for my Nehu 🤗",
     image: "assets/images/02.gif",
-    link: "https://example.com/day1"
+    link: "https://ourgallery.pythonanywhere.com/"
   },
   {
     title: "Day 2 💫",
